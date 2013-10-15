@@ -1,6 +1,6 @@
 #ifndef _TASK_DEF_
 #define _TASK_DEF_
-
+   
 #include <string>
 #include <stdio.h>
 
