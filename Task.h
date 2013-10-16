@@ -15,7 +15,7 @@ public:
 	{
 		(m_pObj->*m_pFunc)();
 	}
-	bool operator==(FuncObj<obj> b)
+/*	bool operator==(FuncObj<obj> b)
 	{
 		if(this == NULL)
 		{
@@ -25,7 +25,7 @@ public:
 		{
 			return true;
 		}
-	}
+	}*/
 	
 	bool operator!=(FuncObj<obj> b)
 	{
@@ -36,12 +36,12 @@ public:
 		}
 		else */if(this->m_pObj != b.m_pObj || this->m_pFunc != b.m_pFunc)
 		{
-			//printf("task 2\n");
-			return true;
+		//	printf("task 2\n");
+		//	return true;
 		}
 		else
 		{
-			//printf("task 3\n");
+			printf("task 3\n");
 			return false;
 		}		
 	}
