@@ -18,8 +18,8 @@ SRC_DIR := $(shell pwd)/
   
 COMMON_SRC = \
   main.cpp \
-  TaskQueue.cpp \
-  ThreadPool.cpp
+#  ThreadPool.cpp
+#  TaskQueue.cpp \
   
 CPPFLAGS = -DLinux
 CXXFLAGS += -g -I./ -lboost_system -lboost_thread
